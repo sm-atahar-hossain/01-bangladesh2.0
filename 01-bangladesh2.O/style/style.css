@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Work Sans", sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: rgba(14, 14, 14, 1);
+}
+/* nav section design */
+nav> ul{
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    margin-right: 110px;
+    margin-left: 110px;
+    padding: 15px;
+    height: 50px;
+    list-style: none;
+}
+nav li>a{
+    text-decoration: none;
+}
+.nav-bn{
+    font-size: 24px;
+    font-weight: 700;
+}
+nav a>button{
+    padding: 10px;
+    height: 35px;
+    border: 2px solid rgba(0, 106, 80, 1) ;
+    color: rgba(0, 106, 80, 1);
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* hero section design */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    margin: 10px 110px;
+    padding: 55px 70px;
+    background: rgba(198, 228, 214, 1);
+}
+#hero-p1{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 16px;
+    font-weight: 500;
+}
+#hero-p2{
+    margin-top: 10px;
+    font-size: 39px;
+    font-weight: 700;
+}
+#hero-btn{
+    margin-top: 20px;
+    width: 250px;
+    height: 40px;
+    color: white;
+    font-weight:600 ;
+    display: flex;
+    align-items: center;
+    padding: 17px 34px 17px 34px;
+    border-radius: 8px;
+    background: rgba(0, 106, 80, 1);
+    border: none;
+}
+
+/* pillars section design */
+.pillars{
+    display: flex;
+    margin: 40px 110px;
+    flex-direction: column;
+    padding: 10px;
+}
+.pillars h4{
+    padding-bottom: 2px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.pillars h5{
+    padding-bottom: 10px;
+    margin: 5px 2px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.pillars img{
+    padding: 2px;
+    width: 50px;
+}
+.pillars-layout{
+    display: flex;
+    justify-content: space-around;
+
+}
+.pillars-design{
+    border-radius: 8px;
+    padding: 10px;
+    width:195px;
+    height:160px;
+    background-color: white;
+}
