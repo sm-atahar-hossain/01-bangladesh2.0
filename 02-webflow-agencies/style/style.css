@@ -140,4 +140,26 @@
     display: flex;
     flex-direction: column;
 }
+/* ready section design */
+.ready{
+    background-color: white;
+    padding: 45px;
+    border-radius: 30px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.ready>h3{
+    font-size: 30px;
+    font-weight:700;
+}
+.ready >p{
+    font-size: 14px;
+    color: rgba(37, 36, 50, 0.5);
+}
+.ready>img{
+    border-radius: 30px;
+}
 
