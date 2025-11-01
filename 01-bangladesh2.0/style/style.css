@@ -186,6 +186,7 @@ nav a>button{
 }
 .news p{
     font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
 }
 .news-layout{
     display: flex;
@@ -203,6 +204,7 @@ nav a>button{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    color: rgba(14, 14, 14, 0.7);
 }
 .news-layout div>h5{
     font-size: 18px;
@@ -229,5 +231,53 @@ nav a>button{
     border-radius: 10px;
     border: none;
 }
-
+/* Donate section design */
+.donate{
+    margin: 10px 110px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.donate h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+.donate p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.donate >div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+}
+.donate div>div{
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.donate div>div:hover{
+    background-color:rgba(198, 228, 214, 1);
+}
+.donate >input{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    padding: 8px;
+}
+.donate > button{
+    width:115px;
+    padding: 8px;
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+}
 
