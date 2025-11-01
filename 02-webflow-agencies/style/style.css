@@ -105,5 +105,39 @@
     font-weight: 900;
     color:rgba(78, 71, 255, 1) ;
 }
-
+/* users section design */
+.users{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+.users>h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+.users>div{
+    display: flex;
+    gap: 20px;
+}
+.users-layout{
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+}
+.users-layout-img{
+    display: flex;
+    gap: 10px;
+}
+.users-layout-name{
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
 
