@@ -20,9 +20,10 @@
     width: 100%;
     padding: 40px 10px;
 }
-.nav ul{
+.nav>ul{
     display: flex;
-    justify-content:space-around ;
+    gap: 55%;
+    justify-content: center;
 }
 .nav ul>li{
     list-style: none;
@@ -197,4 +198,37 @@
   .get-in-touch label>p{
     font-size: 24px;
     font-weight: 600;
+ }
+
+ /* footer section design */
+ .footer{
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items:center;
+    font-size: 14px;
+    color: rgba(37, 36, 50, 0.5);
+ }
+ .footer>h1{
+    font-size: 50px;
+    padding: 10px;
+    font-weight: 900;
+    color:  rgb(19, 12, 237);
+ }
+ .footer>p,ul{
+    width: 45%;
+ }
+ .footer >ul{
+    display: flex;
+    justify-content: space-around;
+ }
+ .footer ul>li{
+   list-style: none;
+ }
+ .footer li>a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgba(37, 36, 50, 0.5);
  }
