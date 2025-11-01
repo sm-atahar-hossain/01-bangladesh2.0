@@ -171,4 +171,63 @@ nav a>button{
     gap: 10px;
 }
 
+/* opinion section | design in index.html file */
+
+/* news section design */
+.news{
+    margin: 20px 110px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.news h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+.news p{
+    font-size: 16px;
+}
+.news-layout{
+    display: flex;
+    padding: 15px;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.news-layout img{
+    width: 25%;
+    border-radius: 10px;
+}
+.news-layout div{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.news-layout div>h5{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.news-layout div>img{
+   width: 100px;
+   height: 30px;
+}
+.news-layout div>time{
+   font-size: 10px;
+}
+.news-layout div>p{
+    font-size: 16px;
+}
+.news-layout div>button{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgba(0, 106, 80, 1);
+    width: 150px;
+    padding: 8px 3px;
+    border-radius: 10px;
+    border: none;
+}
+
 
